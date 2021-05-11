@@ -1,6 +1,5 @@
 (See summary at bottom of this file)
 
-
 Processing 18757 files...
 Left  became white # 1 at frame: 109
 Right became white # 1 at frame: 127
@@ -210,6 +209,7 @@ Left  became white # 52 at frame: 18539
 Right became white # 52 at frame: 18562
 Left  became black # 52 at frame: 18719
 Right became black # 52 at frame: 18734
+Processing complete!
 
 ### ALL DELAYS SORTED ###
 
