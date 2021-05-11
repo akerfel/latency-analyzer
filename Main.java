@@ -26,9 +26,11 @@ public class Main {
     public static void main(String[] args) {
 
         // --- SETTINGS, TO BE CHANGED BY USER ---
-        String folderWithFramesName = args[0]; // This folder must be located inside the data folder, and should contains frames from video
-        boolean printSwapFrames = true; // If true, will print info about EVERY swap. Adds about 20% runtime (23sek to 28sek for )
+        boolean printSwapFrames = true; // If true, will print info about EVERY swap. Adds about 20% runtime
         boolean printDelaysSorted = true; 
+
+        // First command line option
+        String folderWithFramesName = args[0]; // This folder must be located inside the data folder, and should contains frames from video
 
         // Set by command line's optional second argument.
         boolean printBlackAndWhiteInfo = false; // If false (recommended), only prints info about ALL delays (not black/white delays)
