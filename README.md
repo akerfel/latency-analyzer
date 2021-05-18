@@ -4,3 +4,6 @@ A java program used for analyzing the delay between two video streams that are s
 ## How to run with example data
 1. Compile with `javac Main.java`
 2. Run `java Main exampleData`
+
+## Example output
+Example output can be found in the file `examepleOutput.txt`.
