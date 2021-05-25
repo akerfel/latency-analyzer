@@ -42,7 +42,6 @@ public class OnlyPrintDelays {
             System.out.println("Processing " + listOfFiles.length + " files...");
         }
 
-        
         // Frame numbers where black switches to white and vice versa, both for left and right.
         // For example, blackToWhiteFramesLeft.get(11) = 4800 means that the eleventh swap from black to
         // white happens at frame 4800.
@@ -130,12 +129,11 @@ public class OnlyPrintDelays {
 
         // Add white and black delays to allDelays
         ArrayList<Integer> allDelays = new ArrayList<Integer>(whiteDelays);
+        allDelays.addAll(blackDelays);
         printAllDelays(allDelays);
     }
 
     static void printAllDelays(ArrayList<Integer> allDelays) {
-        allDelays.addAll(blackDelays);
-
         System.out.println ("");
         System.out.println ("### ALL DELAYS SORTED ###");
         System.out.println ("");
