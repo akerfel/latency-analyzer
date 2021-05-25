@@ -173,21 +173,6 @@ public class OnlyPrintDelays {
         return c.getRed() > 230 && c.getGreen() > 230 && c.getBlue() > 230;
     }
 
-    // Part of this function was made by stackoverflow user Mike B.
-    // Function copied from https://stackoverflow.com/questions/11955728/how-to-calculate-the-median-of-an-array/28822243
-    static double getMedian(ArrayList<Integer> list) {
-        Integer[] numArray = new Integer[list.size()];
-        numArray = list.toArray(numArray);
-        Arrays.sort(numArray);
-
-        double median;
-        if (numArray.length % 2 == 0)
-            median = ((double)numArray[numArray.length/2] + (double)numArray[numArray.length/2 - 1])/2;
-        else
-            median = (double) numArray[numArray.length/2];
-        return median;
-    }
-
     // Function made by stackoverflow user Jared Rummler.
     // https://stackoverflow.com/questions/47500296/how-to-get-the-color-of-a-specific-pixel-of-an-image-java
     private static Color getPixelColor(Image image, int x, int y) {
