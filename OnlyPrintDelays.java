@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.lang.Math;
 
+// This file only prints the individual delays, without calculating the median and other relevant data.
+
 // How to fix setup:
 // LEFT video stream = LOWER delay (zoom)
 // RIGHT video stream = HIGHER delay (qTox)
