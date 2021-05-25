@@ -399,7 +399,6 @@ public class Main {
         return (isBlack(c1) && isWhite(c2)) || (isWhite(c1) && isBlack(c2));
     }
 
-    // Could speed things up by only checking red (less reliable, but probably fine).
     static boolean isBlack(Color c) {
         return c.getRed() < 40 && c.getGreen() < 40 && c.getBlue() < 40;
     }

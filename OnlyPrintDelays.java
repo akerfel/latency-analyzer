@@ -29,16 +29,9 @@ public class OnlyPrintDelays {
 
         // --- SETTINGS, TO BE CHANGED BY USER ---
         boolean printSwapFrames = true; // If true, will print info about EVERY swap. Adds about 20% runtime
-        boolean printDelaysSorted = true; 
 
         // First command line option
         String folderWithFramesName = args[0]; // This folder must be located inside the data folder, and should contains frames from video
-
-        // Set by command line's optional second argument.
-        boolean printBlackAndWhiteInfo = false; // If false (recommended), only prints info about ALL delays (not black/white delays)
-        if (args.length == 2) {
-            printBlackAndWhiteInfo = args[1].equals("print") || args[1].equals("p");
-        }
 
         // --- ACTUAL CODE STARTS ---
         String path = "data/" + folderWithFramesName;
@@ -137,6 +130,10 @@ public class OnlyPrintDelays {
 
         // Add white and black delays to allDelays
         ArrayList<Integer> allDelays = new ArrayList<Integer>(whiteDelays);
+        printAllDelays(allDelays);
+    }
+
+    static void printAllDelays(ArrayList<Integer> allDelays) {
         allDelays.addAll(blackDelays);
 
         System.out.println ("");
@@ -166,7 +163,6 @@ public class OnlyPrintDelays {
         return (isBlack(c1) && isWhite(c2)) || (isWhite(c1) && isBlack(c2));
     }
 
-    // Could speed things up by only checking red (less reliable, but probably fine).
     static boolean isBlack(Color c) {
         return c.getRed() < 40 && c.getGreen() < 40 && c.getBlue() < 40;
     }
