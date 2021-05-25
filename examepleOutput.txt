@@ -1,6 +1,6 @@
 (See summary at bottom of this file)
 
-Processing 18757 files...
+Processing 1999 files...
 Left  became white # 1 at frame: 109
 Right became white # 1 at frame: 127
 Left  became black # 1 at frame: 292
@@ -23,300 +23,21 @@ Left  became black # 5 at frame: 1736
 Right became black # 5 at frame: 1780
 Left  became white # 6 at frame: 1917
 Right became white # 6 at frame: 1941
-Left  became black # 6 at frame: 2098
-Right became black # 6 at frame: 2118
-Left  became white # 7 at frame: 2279
-Right became white # 7 at frame: 2298
-Left  became black # 7 at frame: 2459
-Right became black # 7 at frame: 2474
-Left  became white # 8 at frame: 2640
-Right became white # 8 at frame: 2655
-Left  became black # 8 at frame: 2821
-Right became black # 8 at frame: 2857
-Left  became white # 9 at frame: 3001
-Right became white # 9 at frame: 3014
-Left  became black # 9 at frame: 3183
-Right became black # 9 at frame: 3194
-Left  became white # 10 at frame: 3366
-Right became white # 10 at frame: 3378
-Left  became black # 10 at frame: 3546
-Right became black # 10 at frame: 3576
-Left  became white # 11 at frame: 3725
-Right became white # 11 at frame: 3761
-Left  became black # 11 at frame: 3906
-Right became black # 11 at frame: 3940
-Left  became white # 12 at frame: 4086
-Right became white # 12 at frame: 4116
-Left  became black # 12 at frame: 4269
-Right became black # 12 at frame: 4301
-Left  became white # 13 at frame: 4449
-Right became white # 13 at frame: 4476
-Left  became black # 13 at frame: 4630
-Right became black # 13 at frame: 4641
-Left  became white # 14 at frame: 4814
-Right became white # 14 at frame: 4836
-Left  became black # 14 at frame: 4991
-Right became black # 14 at frame: 5005
-Left  became white # 15 at frame: 5170
-Right became white # 15 at frame: 5200
-Left  became black # 15 at frame: 5351
-Right became black # 15 at frame: 5376
-Left  became white # 16 at frame: 5533
-Right became white # 16 at frame: 5560
-Left  became black # 16 at frame: 5714
-Right became black # 16 at frame: 5736
-Left  became white # 17 at frame: 5896
-Right became white # 17 at frame: 5917
-Left  became black # 17 at frame: 6076
-Right became black # 17 at frame: 6096
-Left  became white # 18 at frame: 6257
-Right became white # 18 at frame: 6310
-Left  became black # 18 at frame: 6437
-Right became black # 18 at frame: 6460
-Left  became white # 19 at frame: 6618
-Right became white # 19 at frame: 6640
-Left  became black # 19 at frame: 6799
-Right became black # 19 at frame: 6820
-Left  became white # 20 at frame: 6978
-Right became white # 20 at frame: 7004
-Left  became black # 20 at frame: 7160
-Right became black # 20 at frame: 7188
-Left  became white # 21 at frame: 7341
-Right became white # 21 at frame: 7360
-Left  became black # 21 at frame: 7519
-Right became black # 21 at frame: 7540
-Left  became white # 22 at frame: 7701
-Right became white # 22 at frame: 7720
-Left  became black # 22 at frame: 7881
-Right became black # 22 at frame: 7900
-Left  became white # 23 at frame: 8062
-Right became white # 23 at frame: 8080
-Left  became black # 23 at frame: 8243
-Right became black # 23 at frame: 8260
-Left  became white # 24 at frame: 8422
-Right became white # 24 at frame: 8440
-Left  became black # 24 at frame: 8603
-Right became black # 24 at frame: 8624
-Left  became white # 25 at frame: 8784
-Right became white # 25 at frame: 8804
-Left  became black # 25 at frame: 8964
-Right became black # 25 at frame: 8980
-Left  became white # 26 at frame: 9145
-Right became white # 26 at frame: 9161
-Left  became black # 26 at frame: 9328
-Right became black # 26 at frame: 9341
-Left  became white # 27 at frame: 9507
-Right became white # 27 at frame: 9524
-Left  became black # 27 at frame: 9690
-Right became black # 27 at frame: 9700
-Left  became white # 28 at frame: 9867
-Right became white # 28 at frame: 9880
-Left  became black # 28 at frame: 10051
-Right became black # 28 at frame: 10061
-Left  became white # 29 at frame: 10230
-Right became white # 29 at frame: 10255
-Left  became black # 29 at frame: 10410
-Right became black # 29 at frame: 10428
-Left  became white # 30 at frame: 10589
-Right became white # 30 at frame: 10611
-Left  became black # 30 at frame: 10770
-Right became black # 30 at frame: 10787
-Left  became white # 31 at frame: 10953
-Right became white # 31 at frame: 10971
-Left  became black # 31 at frame: 11131
-Right became black # 31 at frame: 11155
-Left  became white # 32 at frame: 11312
-Right became white # 32 at frame: 11331
-Left  became black # 32 at frame: 11499
-Right became black # 32 at frame: 11511
-Left  became white # 33 at frame: 11675
-Right became white # 33 at frame: 11696
-Left  became black # 33 at frame: 11857
-Right became black # 33 at frame: 11867
-Left  became white # 34 at frame: 12034
-Right became white # 34 at frame: 12051
-Left  became black # 34 at frame: 12214
-Right became black # 34 at frame: 12231
-Left  became white # 35 at frame: 12393
-Right became white # 35 at frame: 12412
-Left  became black # 35 at frame: 12576
-Right became black # 35 at frame: 12588
-Left  became white # 36 at frame: 12758
-Right became white # 36 at frame: 12768
-Left  became black # 36 at frame: 12938
-Right became black # 36 at frame: 12952
-Left  became white # 37 at frame: 13119
-Right became white # 37 at frame: 13136
-Left  became black # 37 at frame: 13303
-Right became black # 37 at frame: 13311
-Left  became white # 38 at frame: 13481
-Right became white # 38 at frame: 13492
-Left  became black # 38 at frame: 13661
-Right became black # 38 at frame: 13687
-Left  became white # 39 at frame: 13841
-Right became white # 39 at frame: 13866
-Left  became black # 39 at frame: 14023
-Right became black # 39 at frame: 14043
-Left  became white # 40 at frame: 14201
-Right became white # 40 at frame: 14227
-Left  became black # 40 at frame: 14385
-Right became black # 40 at frame: 14407
-Left  became white # 41 at frame: 14566
-Right became white # 41 at frame: 14598
-Left  became black # 41 at frame: 14744
-Right became black # 41 at frame: 14763
-Left  became white # 42 at frame: 14926
-Right became white # 42 at frame: 14943
-Left  became black # 42 at frame: 15105
-Right became black # 42 at frame: 15126
-Left  became white # 43 at frame: 15286
-Right became white # 43 at frame: 15303
-Left  became black # 43 at frame: 15467
-Right became black # 43 at frame: 15483
-Left  became white # 44 at frame: 15649
-Right became white # 44 at frame: 15663
-Left  became black # 44 at frame: 15829
-Right became black # 44 at frame: 15839
-Left  became white # 45 at frame: 16013
-Right became white # 45 at frame: 16026
-Left  became black # 45 at frame: 16193
-Right became black # 45 at frame: 16203
-Left  became white # 46 at frame: 16373
-Right became white # 46 at frame: 16390
-Left  became black # 46 at frame: 16554
-Right became black # 46 at frame: 16563
-Left  became white # 47 at frame: 16732
-Right became white # 47 at frame: 16750
-Left  became black # 47 at frame: 16914
-Right became black # 47 at frame: 16961
-Left  became white # 48 at frame: 17092
-Right became white # 48 at frame: 17137
-Left  became black # 48 at frame: 17276
-Right became black # 48 at frame: 17294
-Left  became white # 49 at frame: 17457
-Right became white # 49 at frame: 17481
-Left  became black # 49 at frame: 17637
-Right became black # 49 at frame: 17658
-Left  became white # 50 at frame: 17816
-Right became white # 50 at frame: 17837
-Left  became black # 50 at frame: 17996
-Right became black # 50 at frame: 18014
-Left  became white # 51 at frame: 18175
-Right became white # 51 at frame: 18194
-Left  became black # 51 at frame: 18356
-Right became black # 51 at frame: 18378
-Left  became white # 52 at frame: 18539
-Right became white # 52 at frame: 18562
-Left  became black # 52 at frame: 18719
-Right became black # 52 at frame: 18734
 Processing complete!
 
 ### ALL DELAYS SORTED ###
 
 116
-133
 149
-149
-166
-166
-166
-166
-166
-166
 183
-183
-183
-183
-199
-199
-199
-216
-216
-216
-216
-233
-233
-233
-249
-249
-249
-266
-266
-266
-283
-283
-283
-283
-283
-283
-283
-283
-283
 299
 299
-299
-299
-299
-299
-299
-299
-299
-316
-316
-316
-316
-316
-316
-316
-316
 333
-333
-333
-333
-333
-349
-349
-349
-349
-349
-349
-349
-349
-366
-366
-366
-366
-366
-366
 366
 383
-383
-383
 399
-399
-399
-416
-416
-416
 433
-433
-433
-433
-449
-449
-466
-499
-499
-499
-533
-533
-566
-599
-599
 733
-749
-783
-883
 
 ### ALL DELAYS, ORIGINAL ORDER ###
 
@@ -326,124 +47,31 @@ Processing complete!
 383
 366
 399
-316
-249
-216
-199
-599
-499
-449
-366
-499
-449
-349
-883
-366
-433
-316
-316
-299
-299
-333
-266
-283
-216
-416
-366
-299
-316
-349
-283
-316
-166
-283
-183
-416
-433
-533
-283
-283
-233
-216
-283
-299
-749
-399
-349
-316
-383
 183
 116
 299
 333
 733
-333
-249
-599
-183
-499
-566
-533
-183
-233
-416
-366
-333
-383
-349
-466
-349
-316
-283
-349
-266
-216
-166
-166
-299
-283
-399
-199
-166
-283
-199
-233
-133
-433
-333
-366
-316
-349
-266
-166
-166
-149
-783
-299
-349
-299
-366
-249
 
 --------------------------
 @@@ SUMMARY ALL DELAYS @@@
 
 File name: exampleData
-Total frame files analyzed: 18757
+Total frame files analyzed: 1999
 --- TOTAL ---
-Flips from black to white left: 52, right: 52
-Flips from white to black left: 52, right: 52
+Flips from black to white left: 6, right: 6
+Flips from white to black left: 5, right: 5
 Lowest delay: 116ms = 7 frames, left flipped at 652, right at 659
-Highest delay: 883ms = 53 frames, left flipped at 6257, right at 6310
+Highest delay: 733ms = 44 frames, left flipped at 1736, right at 1780
 
 --- AVERAGE ---
 Average delay: 20 frames = 336 ms
-55% of delays were within 25% of average.
-81% of delays were within 50% of average.
-96% of delays were within 80% of average.
+54% of delays were within 25% of average.
+72% of delays were within 50% of average.
+90% of delays were within 80% of average.
 
 --- MEDIAN ---
-Median delay: 19 frames = 316 ms
-52% of delays were within 25% of median.
-84% of delays were within 50% of median.
-94% of delays were within 80% of median.
+Median delay: 20 frames = 333 ms
+54% of delays were within 25% of median.
+72% of delays were within 50% of median.
+90% of delays were within 80% of median.
