@@ -230,7 +230,7 @@ public class Main {
         double averageFrameDelay = (averageWhiteFrameDelay + averageBlackFrameDelay) / 2;
         int averageWhiteMilliSecDelay = (int) (averageWhiteFrameDelay * 16.6666);
         int averageBlackMilliSecDelay = (int) (averageBlackFrameDelay * 16.6666);
-        int averageMilliSecDelay = (int) (averageFrameDelay * 16.6666);
+        int averageMilliSecDelay = (int) ((int) averageFrameDelay * 16.6666);
 
         // Median delays in frames and milliseconds
         double medianWhiteFrameDelay = (double) getMedian(whiteDelays);
@@ -238,7 +238,7 @@ public class Main {
         double medianFrameDelay = (double) getMedian(allDelays);
         int medianWhiteMilliSecDelay = (int) (medianWhiteFrameDelay * 16.6666); 
         int medianBlackMilliSecDelay = (int) (medianBlackFrameDelay * 16.6666);
-        int medianMilliSecDelay = (int) (medianFrameDelay * 16.6666);
+        int medianMilliSecDelay = (int) ((int) medianFrameDelay * 16.6666);
 
         if (printDelaysSorted) {
             if (printBlackAndWhiteInfo) {
@@ -360,6 +360,7 @@ public class Main {
         System.out.println("File name: " + folderWithFramesName);
         System.out.println("Total frame files analyzed: " + listOfFiles.length);
         System.out.println("--- TOTAL ---");
+        System.out.println("Delays detected: " + allDelays.size());
         System.out.println("Flips from black to white left: " + blackToWhiteFramesLeft.size() + ", right: " + blackToWhiteFramesRight.size());
         System.out.println("Flips from white to black left: " + whiteToBlackFramesLeft.size() + ", right: " + whiteToBlackFramesRight.size());
         System.out.println("Lowest delay: " + lowestMilliSecDelay + "ms = " + lowestDelay + " frames, left flipped at " + firstFrame_lowestDelay + ", right at " + lastFrame_lowestDelay);

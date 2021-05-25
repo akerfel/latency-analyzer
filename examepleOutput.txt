@@ -1,6 +1,4 @@
-(See summary at bottom of this file)
-
-Processing 1999 files...
+Processing 1908 files...
 Left  became white # 1 at frame: 109
 Right became white # 1 at frame: 127
 Left  became black # 1 at frame: 292
@@ -21,8 +19,6 @@ Left  became white # 5 at frame: 1556
 Right became white # 5 at frame: 1578
 Left  became black # 5 at frame: 1736
 Right became black # 5 at frame: 1780
-Left  became white # 6 at frame: 1917
-Right became white # 6 at frame: 1941
 Processing complete!
 
 ### ALL DELAYS SORTED ###
@@ -35,7 +31,6 @@ Processing complete!
 333
 366
 383
-399
 433
 733
 
@@ -46,7 +41,6 @@ Processing complete!
 433
 383
 366
-399
 183
 116
 299
@@ -57,21 +51,22 @@ Processing complete!
 @@@ SUMMARY ALL DELAYS @@@
 
 File name: exampleData
-Total frame files analyzed: 1999
+Total frame files analyzed: 1908
 --- TOTAL ---
-Flips from black to white left: 6, right: 6
+Delays detected: 10
+Flips from black to white left: 5, right: 5
 Flips from white to black left: 5, right: 5
 Lowest delay: 116ms = 7 frames, left flipped at 652, right at 659
 Highest delay: 733ms = 44 frames, left flipped at 1736, right at 1780
 
 --- AVERAGE ---
-Average delay: 20 frames = 336 ms
-54% of delays were within 25% of average.
-72% of delays were within 50% of average.
+Average delay: 19 frames = 316 ms
+50% of delays were within 25% of average.
+70% of delays were within 50% of average.
 90% of delays were within 80% of average.
 
 --- MEDIAN ---
-Median delay: 20 frames = 333 ms
-54% of delays were within 25% of median.
-72% of delays were within 50% of median.
+Median delay: 19 frames = 316 ms
+50% of delays were within 25% of median.
+70% of delays were within 50% of median.
 90% of delays were within 80% of median.
