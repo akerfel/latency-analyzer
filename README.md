@@ -7,7 +7,7 @@ A java program used for analyzing the delay between two video streams that are s
 
 The `Main.java` file will not only print the individual delays, but also some extra statistics.
 
-If you only want to print the individual delays, the file `OnlyPrintDelays.java` can be used instead. The delays will be printed both in sorted order, and in the original order. `OnlyPrintDelays.java` can be compiled and ran in the way as `Main.java` is.
+If you only want to print the individual delays, the file `OnlyPrintDelays.java` can be used instead. The delays will be printed both in sorted order, and in original order. `OnlyPrintDelays.java` can be compiled and ran in the way as `Main.java` is.
 
 ## Different versions
 
