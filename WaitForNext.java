@@ -21,6 +21,7 @@ public class WaitForNext {
         // --- SETTINGS ---
         String folderWithFramesName = args[0]; // This folder must be located inside the data folder, and should contains frames from video
         boolean print = true;                // Set to true to print info about EVERY delay.
+        boolean printExtraInfo = false;
 
         // --- ACTUAL CODE STARTS ---
         String path = "data/" + folderWithFramesName;
@@ -206,39 +207,39 @@ public class WaitForNext {
         }
 
         
-        /*
-        System.out.println("");
-        System.out.println("");
-        System.out.println("--------------------------");
-        System.out.println("--- TOTAL: white delay ---");
-        System.out.println("Total frame delay: " + totalWhiteFrameDelay);
-        System.out.println("Flips from black to white detected: " + blackToWhiteCounter);
-        System.out.println("Lowest white delay: " + lowestWhiteMilliSecDelay + "ms = " + lowestWhiteDelay + " frames, ends at frame: " + frame_lowestWhiteDelay);
-        System.out.println("Highest white delay: " + highestWhiteMilliSecDelay + "ms = " + highestWhiteDelay + " frames, ends at frame: " + frame_highestWhiteDelay);
+        if (printExtraInfo) {
+            System.out.println("");
+            System.out.println("");
+            System.out.println("--------------------------");
+            System.out.println("--- TOTAL: white delay ---");
+            System.out.println("Total frame delay: " + totalWhiteFrameDelay);
+            System.out.println("Flips from black to white detected: " + blackToWhiteCounter);
+            System.out.println("Lowest white delay: " + lowestWhiteMilliSecDelay + "ms = " + lowestWhiteDelay + " frames, ends at frame: " + frame_lowestWhiteDelay);
+            System.out.println("Highest white delay: " + highestWhiteMilliSecDelay + "ms = " + highestWhiteDelay + " frames, ends at frame: " + frame_highestWhiteDelay);
 
-        System.out.println("");
-        System.out.println("--- TOTAL: black delay ---");
-        System.out.println("Total frame delay: " + totalBlackFrameDelay);
-        System.out.println("Flips from black to white detected: " + whiteToBlackCounter);
-        System.out.println("Lowest black delay: " + lowestBlackMilliSecDelay + "ms = " + lowestBlackDelay + " frames, ends at frame: " + frame_lowestBlackDelay);
-        System.out.println("Highest black delay: " + highestBlackMilliSecDelay + "ms = " + highestBlackDelay + " frames, ends at frame: " + frame_highestBlackDelay);
+            System.out.println("");
+            System.out.println("--- TOTAL: black delay ---");
+            System.out.println("Total frame delay: " + totalBlackFrameDelay);
+            System.out.println("Flips from black to white detected: " + whiteToBlackCounter);
+            System.out.println("Lowest black delay: " + lowestBlackMilliSecDelay + "ms = " + lowestBlackDelay + " frames, ends at frame: " + frame_lowestBlackDelay);
+            System.out.println("Highest black delay: " + highestBlackMilliSecDelay + "ms = " + highestBlackDelay + " frames, ends at frame: " + frame_highestBlackDelay);
 
-        System.out.println("");
-        System.out.println("--- AVERAGE: white delay ---");
-        System.out.println("Average frame delay: " + averageWhiteFrameDelay);
-        System.out.println("Average ms delay: " + averageWhiteMilliSecDelay);
-        System.out.println(pctWithinPctRangeOfAverage(whiteDelays, 0.75, 1.25) + "% of delays were within 25% of average.");
-        System.out.println(pctWithinPctRangeOfAverage(whiteDelays, 0.5, 1.5) + "% of delays were within 50% of average.");
-        System.out.println(pctWithinPctRangeOfAverage(whiteDelays, 0.2, 1.8) + "% of delays were within 80% of average.");
+            System.out.println("");
+            System.out.println("--- AVERAGE: white delay ---");
+            System.out.println("Average frame delay: " + averageWhiteFrameDelay);
+            System.out.println("Average ms delay: " + averageWhiteMilliSecDelay);
+            System.out.println(pctWithinPctRangeOfAverage(whiteDelays, 0.75, 1.25) + "% of delays were within 25% of average.");
+            System.out.println(pctWithinPctRangeOfAverage(whiteDelays, 0.5, 1.5) + "% of delays were within 50% of average.");
+            System.out.println(pctWithinPctRangeOfAverage(whiteDelays, 0.2, 1.8) + "% of delays were within 80% of average.");
 
-        System.out.println("");
-        System.out.println("--- AVERAGE: black delay ---");
-        System.out.println("Average frame delay: " + averageBlackFrameDelay);
-        System.out.println("Average ms delay: " + averageBlackMilliSecDelay);
-        System.out.println(pctWithinPctRangeOfAverage(blackDelays, 0.75, 1.25) + "% of delays were within 25% of average.");
-        System.out.println(pctWithinPctRangeOfAverage(blackDelays, 0.5, 1.5) + "% of delays were within 50% of average.");
-        System.out.println(pctWithinPctRangeOfAverage(blackDelays, 0.2, 1.8) + "% of delays were within 80% of average.");
-        */
+            System.out.println("");
+            System.out.println("--- AVERAGE: black delay ---");
+            System.out.println("Average frame delay: " + averageBlackFrameDelay);
+            System.out.println("Average ms delay: " + averageBlackMilliSecDelay);
+            System.out.println(pctWithinPctRangeOfAverage(blackDelays, 0.75, 1.25) + "% of delays were within 25% of average.");
+            System.out.println(pctWithinPctRangeOfAverage(blackDelays, 0.5, 1.5) + "% of delays were within 50% of average.");
+            System.out.println(pctWithinPctRangeOfAverage(blackDelays, 0.2, 1.8) + "% of delays were within 80% of average.");
+        }
         
         System.out.println("--- MEDIAN: all delays ---");
         System.out.println(medianMilliSecDelay + " ms");
