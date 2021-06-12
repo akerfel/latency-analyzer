@@ -2,7 +2,7 @@
 A Java program used for analyzing the delay between two video streams that are switching from black and white continuously.
 
 ## Thesis
-[You can find the thesis LaTeX source code and other resources here.](https://github.com/akerfel/Tor-video-latency-thesis)
+[You can find the thesis LaTeX source code and other resources here.](https://github.com/akerfel/Tor-video-latency-thesis) All of the measured latencies can also be found there.
 
 ## How to run with example data
 1. Compile with `javac Main.java`
