@@ -18,6 +18,7 @@ There is a folder with example data in the data folder. That folder contains a s
 
 Example output can be found in the file `examepleOutput.txt`.
 
+## License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
