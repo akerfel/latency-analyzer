@@ -1,5 +1,5 @@
 # latency-analyzer
-A Java program used for analyzing the delay between two video streams that are switching from black and white continuously.
+A Java program used for analyzing the delay between two video streams which are switching from black and white continuously. This program was specifically made for a thesis, and thus we have not provided detailed instructions for how to use it (although we have provided some general instructions)
 
 ## Thesis
 [You can find the thesis LaTeX source code and other resources here.](https://github.com/akerfel/Tor-video-latency-thesis) All of the measured latencies can also be found there.
