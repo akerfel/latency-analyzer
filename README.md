@@ -19,7 +19,7 @@ The file `WaitForNext.java` uses a different method for measuring the individual
 ## Example data and output
 There is a folder with example data in the data folder. That folder contains a small sample size of 1908 files/frames, i.e. about 32 seconds of video (60 FPS). Ten delays were detected and measured, which is resonable since a color swap happened every third second. In our project, each test was five minutes long, and each scenario was tested six times. 
 
-Example output can be found in the file `examepleOutput.txt`.
+Example output can be found in the file `exampleOutput.txt`.
 
 ## License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
